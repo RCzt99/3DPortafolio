@@ -1,11 +1,11 @@
-import React from 'react'
+import Hero from './sections/Hero.jsx';
 
-const App = () => {
-  return (
-    <div>
-        <h1>Welcome to my 3D Portafolio</h1>
-      
-    </div>
+
+const App =() => {
+  return(
+    <>
+    <Hero />
+    </>
   )
 }
 
